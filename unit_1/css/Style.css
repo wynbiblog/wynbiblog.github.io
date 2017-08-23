@@ -1,11 +1,4 @@
-body {
+body,h1,p {
+	color: #ffffff
      background-color: #ADD8E6;
-}
-
-h1 {
-     color: #ffffff;
-}
-
-p {
-     color: #ffffff;
 }
