@@ -1,1 +1,6 @@
 style.css
+body,head{ text-align: center;
+	background: rgb(231,247,253);
+	font-size: 14px
+	font-style: helvetica; }
+	
