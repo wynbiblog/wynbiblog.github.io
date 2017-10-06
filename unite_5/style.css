@@ -1,0 +1,26 @@
+body,p 
+{ text-align: center;
+	background: rgb(231,247,253);
+	font-size: 25px;
+	font-style: helvetica; 
+	color: rgb(218,165,32);
+	font-family: 'Shadows Into Light', cursive;
+	line-height: 1.5em;
+}
+header{ background-color: rgb(231,247,253);
+    border: 1px black solid;
+    padding: 20px
+	text-align: center;
+	font-size: 25px;
+	font-style: helvetica; 
+	color: rgb(218,165,32);
+	font-family: 'Shadows Into Light', cursive;
+	line-height: 1.5em;
+	background: #FFED74;
+}
+div {text-align: left;}
+nav {color: #E8C66A}
+aside {color:  #FFC675}
+article {color: {#E89C6C}
+footer {color: FF957E }
+div/section {color: #FFE2B8}
