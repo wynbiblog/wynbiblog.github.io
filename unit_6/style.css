@@ -1,12 +1,13 @@
 header,p {
     text-align: center;
-    background: rgb(231,247,253);
+    background-image: : url("image_2.jpg");
     font-size: 25px;
     font-style: helvetica;
     color: rgb(218,165,32);
     font-family: helvetica;
     line-height: 1.5em;
 }
+
 
 #two_column {
     background-color: #FFB7CF;
@@ -38,6 +39,4 @@ header,p {
     clear: both;
     height: 0;
 }
-img {
-	text-align: center
-}
+  
