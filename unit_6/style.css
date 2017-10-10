@@ -38,3 +38,6 @@ header,p {
     clear: both;
     height: 0;
 }
+img {
+	text-align: center
+}
