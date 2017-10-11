@@ -1,6 +1,5 @@
 header,p {
     text-align: center;
-    background-image: : url("image_2.jpg");
     font-size: 25px;
     font-style: helvetica;
     color: rgb(218,165,32);
@@ -8,6 +7,9 @@ header,p {
     line-height: 1.5em;
 }
 
+body{ 
+	background-image: : url("image_2.jpg");
+}
 
 #two_column {
     background-color: #FFB7CF;
