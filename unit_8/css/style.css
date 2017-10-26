@@ -56,22 +56,25 @@ li,ul,a {
     height: 0;
 }
  
- @media screen only and (min-width: 434px) {
-.article {
-font-size: 2em;
-width: auto;
-float: none;
-}}
-@media screen only and (min-width: 434px) {
-.aside {
-font-size: 2em;
-width: auto;
-float: none;
-} }
-@media screen only and (min-width: 434px) {
-.nav
-{
-font-size: 2em;
-width: auto;
-float: none;
-} }
+ @media screen and (max-width: 1300px) {
+	#left {
+		font-size: 1em;
+		width: auto;
+		float: none;
+	}
+	#right {
+		font-size: 1em;
+		width: auto;
+		float: none;
+	}
+
+	nav a {
+		font-size: 1em;
+		width: auto;
+		float: none;
+		display: block;
+	}
+}
+
+
+

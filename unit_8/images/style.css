@@ -1,0 +1,80 @@
+
+
+h1 {
+    text-align: center;
+    font-size: 100%;
+    font-style: helvetica;
+    color: rgb(42,182,250);
+    font-family: helvetica;
+    line-height: 1.5em;
+}
+h2, p, h3, h4 {
+	text-align: center;
+    font-size: 100%;
+    font-style: helvetica;
+    font-family: helvetica;
+    line-height: 1.5em;
+
+}
+
+li,ul,a {
+	color: rgb(42,182,250);
+ 	text-align: center;
+    font-size: 100%;
+    font-style: helvetica;
+    font-family: helvetica;
+    line-height: 1.5em;
+    margin:40px;
+    }
+
+#two_column {
+    padding: 20px;
+}
+#left {
+    background-color: white;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: white;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+ 
+ @media screen and (max-width: 1300px) {
+	#left {
+		font-size: 1em;
+		width: auto;
+		float: none;
+	}
+	#right {
+		font-size: 1em;
+		width: auto;
+		float: none;
+	}
+
+	nav a {
+		font-size: 1em;
+		width: auto;
+		float: none;
+		display: block;
+	}
+}
+
+
+
