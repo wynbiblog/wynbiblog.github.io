@@ -28,7 +28,7 @@ li,ul,a {
     margin:40px;
     }
  body {
- 	background: rgb(218,236,243);
+ 	background: white;
  	text-align: center;
     font-size: 100%;
     font-style: helvetica;
@@ -53,6 +53,7 @@ li,ul,a {
     padding: 20px;
     float: right;   
     width: 62%;
+    border: 1px black solid;
 }
 
 
