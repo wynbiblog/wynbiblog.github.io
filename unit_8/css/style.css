@@ -6,14 +6,15 @@ h1 {
     font-style: helvetica;
     color: rgb(42,182,250);
     font-family: helvetica;
-    line-height: 1.5em;
+    line-height: 1em;
 }
-h2, p, h3, h4 {
+h2, p {
 	text-align: center;
     font-size: 100%;
     font-style: helvetica;
     font-family: helvetica;
-    line-height: 1.5em;
+    line-height: 1em;
+    font-size: 1em
 
 }
 
@@ -26,21 +27,29 @@ li,ul,a {
     line-height: 1.5em;
     margin:40px;
     }
+ body {
+ 	background: rgb(218,236,243);
+ 	text-align: center;
+    font-size: 100%;
+    font-style: helvetica;
+    font-family: helvetica;
+    line-height: 1em;
+    font-size: 1em
+ }
 
 #two_column {
     padding: 20px;
 }
 #left {
-    background-color: white;
-    border: 1px black solid;
+    background-color: rgb(218,236,243);
     padding: 20px;
     float: left;
+    border: 1px black solid;
     width: 30%;
 }
 
 #right {
-    background-color: white;
-    border: 1px black solid;
+    background-color: rgb(218,236,243);
     padding: 20px;
     float: right;   
     width: 62%;
