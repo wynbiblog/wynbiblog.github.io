@@ -64,6 +64,10 @@ li,ul,a {
     clear: both;
     height: 0;
 }
+
+.hamburger {
+	display: none;
+}
  
  @media screen and (max-width: 1300px) {
 	#left {
@@ -88,4 +92,25 @@ li,ul,a {
 }
 
 
+@media screen and (max-width: 768px) {
+	.hamburger {
+		display: block !important;
+	}
+
+	.hamburger span{
+		height: 1px;
+		background-color: black;
+		margin: 5px 0;
+		width: 30px;
+		display: block
+	}
+
+	nav {
+		display: none;
+	}
+
+	.openNavigation {
+		display: block;
+	}
+}
 

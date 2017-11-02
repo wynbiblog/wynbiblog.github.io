@@ -9,6 +9,11 @@
 <img src="wynbi_blog_large.png" alt="compass" align="center" style="width: 25%; height: auto;">
 </h1>
 	<header>
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
 		<nav>
 			<ul>
 				<a href="#">Career Advice</a>
@@ -77,4 +82,20 @@
 			</footer>
 		</div>
 	</body>
+
+	<script type="text/javascript">
+		
+		var hamburger = document.querySelector('.hamburger');
+		var nav =  document.querySelector('nav');
+
+		console.log(hamburger);
+
+		function openNav() {
+			console.log('hello');
+			nav.classList.toggle('openNavigation');
+		}
+
+		hamburger.addEventListener('click', openNav);
+
+	</script>
 	</html>
