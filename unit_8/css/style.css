@@ -15,6 +15,7 @@ h2, p {
     font-family: helvetica;
     line-height: 1em;
     font-size: 1em
+    padding:0;
 
 }
 
@@ -63,6 +64,10 @@ li,ul,a {
     content: " ";
     clear: both;
     height: 0;
+}
+div {
+	padding-left: 2px
+	padding:2px;
 }
 
 .hamburger {
